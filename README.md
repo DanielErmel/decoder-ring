@@ -18,10 +18,10 @@ The function has three parameters:
 > - **encode** (true by default) is whether or not the phrase is to be encoded or decoded.
 
 There were rules to set boundaries for:
-> The shift value must be present, and must be between -25 and 25 (equal to 0 would also be unaccepted as that would result in no shift at all).
-> Spaces and non-letter symbols were to remain the same.
-> Capital letters were to be treated as lowercase.
-> Letters should wrap around if they pass the end of the alphabet ("a", -4) would become "w".
+> - The shift value must be present, and must be between -25 and 25 (equal to 0 would also be unaccepted as that would result in no shift at all).
+> - Spaces and non-letter symbols were to remain the same.
+> - Capital letters were to be treated as lowercase.
+> - Letters should wrap around if they pass the end of the alphabet ("a", -4) would become "w".
 
 ---
 

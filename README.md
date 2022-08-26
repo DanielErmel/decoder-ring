@@ -7,6 +7,8 @@
 This Decoder Ring project was created to "test your ability to build tricky algorithms as well as write unit tests with Mocha and Chai."
 Three functions were to be created, each representing a different cipher: Caesar, Polybius and Substitution.
 
+---
+
 ### Caesar Cipher
 
 This cipher is a monoalphabetic cipher, where each letter is replaced by another letter in the alphabet. This letter is determined using a number to shift one way or another. For example: caesar("thinkful", 3) would result in "wklqnixo". Each of these letters is shifted to the right in the alphabet 3 places.
@@ -20,6 +22,8 @@ There were rules to set boundaries for:
 > Spaces and non-letter symbols were to remain the same.
 > Capital letters were to be treated as lowercase.
 > Letters should wrap around if they pass the end of the alphabet ("a", -4) would become "w".
+
+---
 
 ### Polybius Cipher
 
@@ -41,6 +45,8 @@ Inversely, when decoding, the parameter is a number "411133425113" and the resul
 If the length of the number while decoding is odd, the test results in false, as an odd number would not pair down evenly. 
 
 If a space occurs in either encryption or decryption, it is translated as '65' and returned as a space. "hi there" becomes "3242 4432512451".
+
+---
 
 ### Substitution Cipher
 

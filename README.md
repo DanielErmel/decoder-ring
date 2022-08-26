@@ -31,11 +31,11 @@ This cipher was developed in ancient Greece by reducing letters of the alphabet 
 
 |       |     | 1   | 2   | 3   | 4   | 5   | 6   |
 | ----- | --- | --- | --- | --- | --- | --- |     |
-| --1-- | -   | A   | B   | C   | D   | E   |     |
-| --2-- | -   | F   | G   | H   | I/J | K   |     |
-| --3-- | -   | L   | M   | N   | O   | P   |     |
-| --4-- | -   | Q   | R   | S   | T   | U   |     |
-| --5-- | -   | V   | W   | X   | Y   | Z   | " " |
+| **1** | -   | A   | B   | C   | D   | E   |     |
+| **2** | -   | F   | G   | H   | I/J | K   |     |
+| **3** | -   | L   | M   | N   | O   | P   |     |
+| **4** | -   | Q   | R   | S   | T   | U   |     |
+| **5** | -   | V   | W   | X   | Y   | Z   | " " |
 
 The grid is then treated like Battleship, only the top number is followed by the side number. So "S" would be represented by "34" (3 across, 4 down).
 

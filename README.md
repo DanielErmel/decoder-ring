@@ -29,13 +29,13 @@ There were rules to set boundaries for:
 
 This cipher was developed in ancient Greece by reducing letters of the alphabet to simple pairs of numbers. It has a 5x5 grid, with each letter being represented by a two digit number. As english has 26 letters, 'i' and 'j' share a square.
 
-|       |     | 1   | 2   | 3   | 4   | 5   |
-| ----- | --- | --- | --- | --- | --- | --- |
-| **1** | -   | A   | B   | C   | D   | E   |
-| **2** | -   | F   | G   | H   | I/J | K   |
-| **3** | -   | L   | M   | N   | O   | P   |
-| **4** | -   | Q   | R   | S   | T   | U   |
-| **5** | -   | V   | W   | X   | Y   | Z   |
+|       |     | 1   | 2   | 3   | 4   | 5   | 6   |
+| ----- | --- | --- | --- | --- | --- | --- | --- |
+| **1** | -   | A   | B   | C   | D   | E   | --- |
+| **2** | -   | F   | G   | H   | I/J | K   | --- |
+| **3** | -   | L   | M   | N   | O   | P   | --- |
+| **4** | -   | Q   | R   | S   | T   | U   | --- |
+| **5** | -   | V   | W   | X   | Y   | Z   | " " |
 
 The grid is then treated like Battleship, only the top number is followed by the side number. So "S" would be represented by "34" (3 across, 4 down).
 

@@ -13,9 +13,9 @@ Three functions were to be created, each representing a different cipher: Caesar
 
 This cipher is a monoalphabetic cipher, where each letter is replaced by another letter in the alphabet. This letter is determined using a number to shift one way or another. For example: caesar("thinkful", 3) would result in "wklqnixo". Each of these letters is shifted to the right in the alphabet 3 places.
 The function has three parameters:
-> **input** represents what word is to be encoded or decoded.
-> **shift** represents the distance left or right the letters are to be shifted.
-> **encode** (true by default) is whether or not the phrase is to be encoded or decoded.
+> - **input** represents what word is to be encoded or decoded.
+> - **shift** represents the distance left or right the letters are to be shifted.
+> - **encode** (true by default) is whether or not the phrase is to be encoded or decoded.
 
 There were rules to set boundaries for:
 > The shift value must be present, and must be between -25 and 25 (equal to 0 would also be unaccepted as that would result in no shift at all).
